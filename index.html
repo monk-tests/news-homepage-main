@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>News Homepage</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <script defer src="./src/script.js"></script>
+  </head>
+  <body class="bg-slate-100 ">
+    <div
+      class=" px-4 xl:px-0 lg:px-10 pt-7 sm:pt-10 lg:pt-16 pb-20 max-w-xl md:max-w-3xl lg:max-w-[1111px] mx-auto font-inter"
+    >
+      <header class="flex justify-between">
+        <picture class="">
+          <img class="w-9 md:w-12" src="./src/images/logo.svg" alt="" />
+        </picture>
+        <nav class="overflow-x-hidden">
+          <div
+            class="transition-transform navigation fixed lg:static bg-blue-seeThrough h-full lg:h-auto w-full inset-0 translate-x-full lg:translate-x-0"
+          >
+            <button
+              class="btn-close absolute right-6 top-5 z-10 active:-rotate-90 transition-transform lg:hidden"
+            >
+              <img src="./src/images/icon-menu-close.svg" alt="" />
+            </button>
+            <ul
+              class="bg-slate-100 h-full w-[70%] absolute right-0 pt-36 sm:pt-48 pl-7 sm:pl-12 flex flex-col gap-5 text-gray-800 text-lg lg:h-auto lg:w-auto lg:static lg:flex-row lg:pt-0 lg:text-gray-500 lg:text-base lg:gap-9"
+            >
+              <li><a class="block hover:text-red-soft" href="#">Home</a></li>
+              <li><a class="block hover:text-red-soft" href="#">New</a></li>
+              <li><a class="block hover:text-red-soft" href="#">Popular</a></li>
+              <li>
+                <a class="block hover:text-red-soft" href="#">Trending</a>
+              </li>
+              <li>
+                <a class="block hover:text-red-soft" href="#">Categories</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn-open lg:hidden">
+            <img src="./src/images/icon-menu.svg" class="" alt="" />
+          </button>
+        </nav>
+      </header>
+      <main class="pt-8 lg:pt-14 lg:grid lg:grid-cols-6 lg:gap-5">
+        <div class="1 lg:col-span-4 xl:grid xl:grid-cols-2">
+          <picture class="hidden md:block lg:col-span-2"
+            ><img src="./src/images/image-web-3-desktop.jpg" class="" alt="" />
+          </picture>
+          <picture class="block md:hidden"
+            ><img
+              class="h-80 object-cover w-full"
+              src="./src/images/image-web-3-mobile.jpg"
+              alt=""
+            />
+          </picture>
+          <div class="mt-5">
+            <h1
+              class="font-extrabold text-4xl lg:text-5xl xl:text-6xl lg:leading-tight text-gray-800 sm:leading-snug"
+            >
+              The Bright <br class="sm:hidden" />
+              Future <br class="hidden sm:block lg:hidden" />
+              of Web <br class="sm:hidden" />
+              3.0?
+            </h1>
+          </div>
+          <div class="mt-4">
+            <p class="text-gray-600 text-base leading-7 lg:pr-24 xl:pr-0">
+              We dive into the next evolution of the web that claims to put the
+              power of the platforms back into the hands of the people. But is
+              it really fulfilling its promise?
+            </p>
+            <a
+              class="inline-block uppercase tracking-[5px] text-sm font-medium bg-red-soft hover:bg-blue-dark active:bg-red-dark active:scale-95 transition-colors focus:outline-none focus:outline-red-softer text-slate-100 px-7 lg:px-8 py-3 lg:py-4 mt-5 lg:mt-8"
+              href="#"
+              >read more</a
+            >
+          </div>
+        </div>
+
+        <div
+          class="2 lg:col-span-2 bg-blue-dark mt-16 lg:mt-0 px-[7vw] sm:px-16 lg:px-6 text-slate-100 py-7 sm:py-14"
+        >
+          <h2 class="capitalize text-3xl font-bold text-orange-soft">new</h2>
+          <ul class="pt-8 grid gap-8">
+            <li>
+              <a href="#" class="group">
+                <h3 class="text-lg font-bold group-hover:text-orange-soft">
+                  Hydrogen VS Electric Cars
+                </h3>
+                <p class="text-sm pt-2 leading-6 text-gray-400">
+                  Will hydrogen-fueled cars ever catch up to EVs?
+                </p>
+              </a>
+            </li>
+            <li class="h-[1px] bg-gray-500"></li>
+            <li>
+              <a href="#" class="group">
+                <h3 class="text-lg font-bold group-hover:text-orange-soft">
+                  The Downsides of AI Artistry
+                </h3>
+                <p class="text-sm pt-2 leading-6 text-gray-400">
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </a>
+            </li>
+            <li class="h-[1px] bg-gray-500"></li>
+            <li>
+              <a href="#" class="group">
+                <h3 class="text-lg font-bold group-hover:text-orange-soft">
+                  Is VC Funding Drying Up?
+                </h3>
+                <p class="text-sm pt-2 leading-6 text-gray-400">
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <section class="mt-16">
+        <ul class="grid gap-7 md:grid-cols-2 lg:grid-cols-3 lg:gap-4">
+          <li>
+            <a class="flex gap-4 group" href="#">
+              <img class="h-32" src="./src/images/image-retro-pcs.jpg" alt="" />
+              <div class="grid">
+                <p class="text-slate-300 text-3xl font-bold">01</p>
+                <h3
+                  class="text-gray-800 group-hover:text-red-soft text-lg font-semibold"
+                >
+                  Reviving Retro PCs
+                </h3>
+                <p class="text-sm text-gray-500">
+                  What happens when old PCs are given modern upgrades?
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="">
+            <a class="flex gap-4 group" href="#">
+              <img
+                class="h-32"
+                src="./src/images/image-top-laptops.jpg"
+                alt=""
+              />
+              <div class="grid">
+                <p class="text-slate-300 text-3xl font-bold">02</p>
+                <h3
+                  class="text-gray-800 group-hover:text-red-soft text-lg font-semibold"
+                >
+                  Top 10 Laptops of 2022
+                </h3>
+                <p class="text-sm text-gray-500">
+                  Our best picks for various needs and budgets.
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a class="flex gap-4 group" href="#">
+              <img
+                class="h-32"
+                src="./src/images/image-gaming-growth.jpg"
+                alt=""
+              />
+              <div class="grid">
+                <p class="text-slate-300 text-3xl font-bold">03</p>
+                <h3
+                  class="text-gray-800 group-hover:text-red-soft text-lg font-semibold"
+                >
+                  The Growth of Gaming
+                </h3>
+                <p class="text-sm text-gray-500">
+                  How the pandemic has sparked fresh opportunities.
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
+
+<!-- <li class="">
+  <a
+    href="#"
+    class="grid gap-4 grid-cols-3 hover:-translate-y-1 transition-transform"
+  >
+    <picture class="1"
+      ><img
+        class="h-full sm:h-48 lg:h-32 md:w-full lg:w-auto  object-cover"
+        src="./src/images/image-retro-pcs.jpg"
+        alt=""
+    /></picture>
+    <div
+      class="2 col-span-2 flex flex-col gap-1 md:gap-3 lg:gap-1 max-w-[200px] md:max-w-xs"
+    >
+      <p class="text-3xl font-bold text-zinc-300">01</p>
+      <h3
+        class="font-bold text-lg md:text-2xl lg:text-xl hover:text-red-soft text-gray-800"
+      >
+        Reviving Retro PCs
+      </h3>
+      <p class="text-gray-600 text-sm md:text-base lg:text-sm leading-6">
+        What happens when old PCs are given modern upgrades?
+      </p>
+    </div>
+  </a>
+</li> -->
